@@ -3,6 +3,7 @@
 Welcome to my Codeforces problem-solving repository! This collection contains C++ implementations of various algorithmic challenges and competitive programming problems.
 
 ## 📋 Table of Contents
+
 - [About](#about)
 - [Problems Solved](#problems-solved)
 - [File Structure](#file-structure)
@@ -48,12 +49,12 @@ This repository contains my solutions to various Codeforces problems implemented
 | `Print_Digits_using_Recursion.cpp` | Extract and print digits using recursion | Recursion, Number manipulation | ⭐⭐ |
 | `Print_Even_Indices.cpp` | Print elements at even indices | Array manipulation, Indexing | ⭐ |
 
-### 🔺 Pattern Generation
+### 🔺 Pattern Generation (Using Recursion)
 
 | File Name | Problem Description | Key Concepts | Difficulty |
 |-----------|-------------------|--------------|------------|
-| `Pyramid.cpp` | Generate pyramid pattern | Pattern printing, Loops | ⭐ |
-| `Inverted_Pyramid.cpp` | Generate inverted pyramid pattern | Pattern printing, Loops | ⭐ |
+| `Pyramid.cpp` | Generate pyramid pattern | Pattern printing, Recursion | ⭐ |
+| `Inverted_Pyramid.cpp` | Generate inverted pyramid pattern | Pattern printing, Recursion | ⭐ |
 
 ## 📁 File Structure
 
@@ -79,6 +80,7 @@ Codeforces/
 ## ⚙️ Compilation & Execution
 
 ### Prerequisites
+
 - **Compiler:** GCC (g++) or any C++17 compatible compiler
 - **OS:** Windows/Linux/macOS
 - **IDE:** Any C++ compatible IDE (VS Code, Code::Blocks, etc.)
@@ -97,6 +99,7 @@ g++ -o weird_algorithm Weird_Algorithm.cpp
 ```
 
 ### Using the provided build task (VS Code)
+
 ```bash
 # Use the configured build task
 Ctrl+Shift+P -> "Tasks: Run Task" -> "C/C++: g++.exe build active file"
@@ -104,25 +107,26 @@ Ctrl+Shift+P -> "Tasks: Run Task" -> "C/C++: g++.exe build active file"
 
 ## 🏷️ Problem Categories
 
-### 🧮 **Recursion (6 problems)**
+### 🧮 **Recursion (8 problems)**
+
 - Basic recursion patterns
 - Number manipulation with recursion
 - String processing with recursion
+- Pattern generation with recursion
 
 ### 🔢 **Mathematics (3 problems)**
+
 - Number theory applications
 - Base conversion algorithms
 - Sequence generation
 
-### 🎨 **Pattern Printing (2 problems)**
-- Geometric patterns
-- ASCII art generation
-
 ### 🔤 **String Processing (1 problem)**
+
 - Character analysis
 - String manipulation
 
 ### 🧠 **Logic & Implementation (2 problems)**
+
 - Problem-solving techniques
 - Algorithm implementation
 
@@ -130,7 +134,7 @@ Ctrl+Shift+P -> "Tasks: Run Task" -> "C/C++: g++.exe build active file"
 
 - **Language:** C++17
 - **STL Libraries:** `<bits/stdc++.h>`, `<iostream>`, `<string>`, `<algorithm>`
-- **Concepts:** 
+- **Concepts:**
   - Recursion
   - String manipulation
   - Mathematical algorithms
@@ -140,9 +144,9 @@ Ctrl+Shift+P -> "Tasks: Run Task" -> "C/C++: g++.exe build active file"
 ## 📊 Statistics
 
 - **Total Problems:** 13
-- **Recursion Problems:** 6 (46%)
+- **Recursion Problems:** 8 (62%)
 - **Mathematical Problems:** 3 (23%)
-- **Pattern Problems:** 2 (15%)
+- **Pattern Problems:** 2 (15%) - *Uses Recursion*
 - **String Problems:** 1 (8%)
 - **Logic Problems:** 2 (15%)
 
@@ -157,12 +161,14 @@ Ctrl+Shift+P -> "Tasks: Run Task" -> "C/C++: g++.exe build active file"
 ## 🚀 Getting Started
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/0xFaysal/codeforces-problem-solve.git
    cd codeforces-problem-solve
    ```
 
 2. **Choose a problem to run:**
+
    ```bash
    g++ -o solution filename.cpp
    ./solution
@@ -180,6 +186,7 @@ Ctrl+Shift+P -> "Tasks: Run Task" -> "C/C++: g++.exe build active file"
 ## 🤝 Contributing
 
 Feel free to:
+
 - Report bugs or issues
 - Suggest optimizations
 - Add alternative solutions
